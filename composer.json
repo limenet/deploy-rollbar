@@ -4,7 +4,7 @@
     "type": "library",
     "require": {
         "limenet/deploy":"dev-master",
-        "irazasyed/telegram-bot-sdk": "3.*@dev"
+        "php-curl-class/php-curl-class": "^7.0"
     },
     "autoload": {
         "psr-4": {
