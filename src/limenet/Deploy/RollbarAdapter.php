@@ -13,7 +13,7 @@ class RollbarAdapter implements PostDeployAdapterInterface
         $this->config = $config;
     }
 
-    public function run(Deploy $deploy, array $payload) : bool
+    public function run(Deploy $deploy) : bool
     {
         $curl = new Curl();
         $curl->post('https://api.rollbar.com/api/1/deploy/', [
