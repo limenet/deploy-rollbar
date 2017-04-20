@@ -3,7 +3,7 @@
     "description": "Rollbar adapter for limenet/deploy",
     "type": "library",
     "require": {
-        "limenet/deploy": "^0.2.0",
+        "limenet/deploy": "^0.3.0",
         "php-curl-class/php-curl-class": "^7.0"
     },
     "autoload": {
